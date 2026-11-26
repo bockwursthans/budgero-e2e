@@ -1,0 +1,15 @@
+{
+  "name": "budgero-e2e",
+  "private": true,
+  "type": "module",
+  "description": "Playwright end-to-end tests for Budgero, run against a throwaway self-host instance.",
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "serve": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1"
+  }
+}
